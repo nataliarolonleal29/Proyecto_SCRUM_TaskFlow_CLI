@@ -20,3 +20,6 @@ Aunque existen aplicaciones de gestión de tareas, muchas son demasiado compleja
 Además, en los proyectos de desarrollo de software es común que los estudiantes trabajen sin una metodología clara, lo que puede generar desorganización y poca claridad en el progreso del proyecto.
 
 Por esta razón, surge la necesidad de desarrollar TaskFlow CLI, una aplicación sencilla en Python para gestionar tareas desde la consola, que al mismo tiempo permita aplicar el marco de trabajo SCRUM para organizar el desarrollo del proyecto de manera colaborativa, planificada y con mejora continua.
+
+## Objetivo del sistema:
+Desarrollar una aplicación de consola en Python llamada TaskFlow CLI que permita gestionar tareas de manera sencilla y organizada, brindando funciones básicas como crear, listar, completar y eliminar tareas, además de guardar la información en un archivo JSON para mantener su persistencia. Al mismo tiempo, el proyecto busca aplicar el marco de trabajo SCRUM para planificar, organizar y desarrollar el sistema de forma colaborativa, evidenciando el uso de metodologías ágiles durante el proceso de desarrollo del producto mínimo viable (MVP).
