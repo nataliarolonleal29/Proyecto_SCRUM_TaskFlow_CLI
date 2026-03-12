@@ -43,3 +43,40 @@ def eliminar_tareas (tareas):
             save_data(data)
             print("Tarea eliminada.")
 
+def editar_tarea ():
+    data = load_data()
+    for tarea in data["tareas"]:
+        print(tarea["titulo"])
+    print("----------------------------------------------")
+    print("Escribe el nombre de la tarea que desea editar")
+    seleccion = input(": ")
+    for tarea in data["tareas"]:
+        if seleccion == tarea["titulo"]:
+            print("")
+            print("¿Que desea editar de esta tarea?")
+            print("1. Titulo")
+            print("2. Descripcion")
+            print("3. Fecha")
+            print("4. Hora de inicio")
+            print("5. Hora de fin")
+            print("--------------------------------")
+            seleccion_dos = input(": ")
+            if seleccion_dos == "1":
+                nuevoTitulo = input("Nuevo titulo: ")
+                tarea["titulo"] = nuevoTitulo
+            elif seleccion_dos == "2":
+                nuevaDescripcion = input("Nueva descripcion: ")
+                tarea["descripcion"] = nuevaDescripcion
+            elif seleccion_dos == "3":
+                nuevaFecha = input("Nueva fecha: DIA/MES/AÑO: ")
+                tarea["fecha"] = nuevaFecha
+            elif seleccion_dos == "4":
+                nuevaHoraDeInicio = input("Nueva hora de inicio: ")
+                tarea["hora_de_inicio"] = nuevaHoraDeInicio
+            elif seleccion_dos == "5":
+                nuevaHoraDeFin = input("Nueva hora de fin: ")
+                tarea["hora_de_fin"] = nuevaHoraDeFin
+
+    save_data(data)
+    print("")
+    print("Datos actualizados correctamente")
