@@ -1,10 +1,10 @@
 # Proyecto SCRUM con TaskFlow CLI
 
 ### Integrantes del equipo:
-### Juan David Arias Patiño
-### Natalia Rolón Leal
-### Keyner Andres Sepulveda Torres
-### Ruben Santiago Carreño Torres
+### Juan David Arias Patiño - Scrum Master
+### Natalia Rolón Leal - Product Owner
+### Ruben Santiago Carreño Torres - Developer
+### Keyner Andres Sepulveda Torres - Developer
 
 ## Descripción del proyecto:
 TaskFlow CLI es una aplicación sencilla desarrollada en Python que funciona desde la terminal y permite gestionar tareas de forma rápida mediante comandos para crear, listar, completar y eliminar tareas, guardando la información en un archivo JSON.
