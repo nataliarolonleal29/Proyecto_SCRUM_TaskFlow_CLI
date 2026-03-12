@@ -4,10 +4,11 @@ bool = True
 while bool == True:
     print("--menu tareas--")
     print("1. crear tarea")
-    print("2. listar tarea")
-    print("3. marcar tarea")
-    print("4. eliminar tarea")
-    print("5. Salir")
+    print("2. Editar")
+    print("3. listar tarea")
+    print("4. marcar tarea")
+    print("5. eliminar tarea")
+    print("6. Salir")
 
     opcion = input("Elige una opción: ")
 
@@ -16,7 +17,7 @@ while bool == True:
         print("------------------------------------------------------")
         crear_tarea()
 
-    elif opcion == "2":
+    elif opcion == "3":
         print("")
 
     elif opcion == "3":
