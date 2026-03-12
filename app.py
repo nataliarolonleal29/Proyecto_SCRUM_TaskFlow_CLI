@@ -17,6 +17,9 @@ while bool == True:
         print("------------------------------------------------------")
         crear_tarea()
 
+    elif opcion == "2":
+        print("")
+
     elif opcion == "3":
         print("")
 
