@@ -1,3 +1,4 @@
+from funciones_basicas import crear_tarea
 bool = True
 
 while bool == True:
@@ -11,8 +12,10 @@ while bool == True:
     opcion = input("Elige una opción: ")
 
     if opcion == "1":
-        print("")
-    
+        print("Bienvenido a la seccion de creacion de una nueva tarea")
+        print("------------------------------------------------------")
+        crear_tarea()
+
     elif opcion == "2":
         print("")
 
