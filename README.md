@@ -170,3 +170,40 @@ No hay tareas registradas.
 
 4. Esta información se guardará como **historia de usuario**.
 5. Finalmente el sistema mostrará el mensaje **"Saliendo del programa..."** y el programa terminará.
+
+## Estructura del Proyecto
+
+El proyecto está organizado en diferentes carpetas y archivos con el objetivo de mantener el código ordenado, facilitar su mantenimiento y separar las responsabilidades de cada parte del programa. A continuación se muestra la estructura general del proyecto:
+
+```
+PROYECTO_SCRUM_TASKFLOW_CLI
+│
+├── __pycache__/
+├── imagenes/
+├── Proyecto_SCRUM_TaskFlow_CLI/
+│
+├── app.py
+├── data.json
+├── data.py
+├── funciones_basicas.py
+├── Evidencias SCRUM.md
+└── README.md
+```
+
+En esta estructura cada archivo cumple una función específica dentro del sistema.
+
+El archivo **app.py** es el archivo principal del programa. Desde este archivo se ejecuta el sistema y se muestra el menú interactivo en la terminal. El usuario puede elegir entre diferentes opciones como crear una tarea, editarla, listar las tareas existentes, marcar una tarea como completada, eliminar una tarea o salir del programa.
+
+El archivo **funciones_basicas.py** contiene todas las funciones que permiten que el sistema funcione correctamente. En este archivo se encuentran las funciones encargadas de crear tareas, listar tareas, editar tareas, eliminar tareas, actualizar el estado de una tarea a completada y guardar las historias de usuario que los usuarios dejan antes de salir del programa.
+
+El archivo **data.py** se encarga de manejar la lectura y escritura de los datos. Este archivo contiene las funciones necesarias para cargar la información guardada y para guardar los cambios que se realizan en las tareas o en las historias de usuario.
+
+El archivo **data.json** funciona como una pequeña base de datos para el programa. En este archivo se almacenan todas las tareas creadas por el usuario y también las historias de usuario que se registran cuando alguien deja una sugerencia o comentario sobre el programa. La información se guarda en formato JSON para que pueda ser leída y modificada fácilmente por el programa.
+
+La carpeta **imagenes** se utiliza para almacenar imágenes que pueden ser usadas dentro del README o en la documentación del proyecto, como capturas del funcionamiento del programa o diagramas explicativos.
+
+El archivo **Evidencias SCRUM.md** contiene la documentación relacionada con la metodología SCRUM utilizada durante el desarrollo del proyecto, incluyendo evidencias de reuniones, avances de los sprints y otros registros del proceso de desarrollo.
+
+El archivo **README.md** es el archivo principal de documentación del proyecto. En este archivo se explica qué hace el programa, cómo utilizarlo, cuáles son sus funciones principales y cómo está organizado el proyecto.
+
+Finalmente, la carpeta **__pycache__** es una carpeta que Python crea automáticamente para guardar archivos compilados del programa con el objetivo de mejorar el rendimiento cuando el código se ejecuta nuevamente.
