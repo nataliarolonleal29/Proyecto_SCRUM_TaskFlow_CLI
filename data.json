@@ -1,10 +1,24 @@
 {
-    "tareas": [],
+    "tareas": [
+        {
+            "titulo": "Cepillarme los dientes",
+            "descripcion": "Debo cepillarme los dientes por las noches",
+            "fecha": "13/03/2026",
+            "hora_de_inicio": "9 pm",
+            "hora_de_fin": "10 pm",
+            "estado_de_la_tarea": "Completada"
+        }
+    ],
     "historias_de_usuarios": [
         {
             "nombre": "Juan",
             "peticion": "Me gustaria que haya una nueva opcion que me avise cuando la tarea esta a una hora de desarrollarse",
             "valor": "Porque necesito estar mas alerta con mis tareas"
+        },
+        {
+            "nombre": "Camilo",
+            "peticion": "Quiero tener colores en mis tareas dependiendo de su estado",
+            "valor": "Soy mas visual que de leer"
         }
     ]
 }
