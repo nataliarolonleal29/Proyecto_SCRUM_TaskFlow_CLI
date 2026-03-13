@@ -30,7 +30,7 @@ while bool == True:
     elif opcion == "4":
         print("Bienvenido a la seccion de marcar tarea como completada")
         print("----------------------------------------")
-        listar_tareas()
+        actualizar_estado()
 
     elif opcion == "5":
         print("Bienvenido a la seccion de eliminar tareas")

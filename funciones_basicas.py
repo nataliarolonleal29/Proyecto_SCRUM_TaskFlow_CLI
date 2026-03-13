@@ -93,7 +93,7 @@ def actualizar_estado ():
     seleccion = input(": ")
     for tarea in data["tareas"]:
         if tarea["titulo"] == seleccion:
-            tarea["estado_de_la_tarea"] == "Completada"
+            tarea["estado_de_la_tarea"] = "Completada"
 
     save_data(data)
     print("")
