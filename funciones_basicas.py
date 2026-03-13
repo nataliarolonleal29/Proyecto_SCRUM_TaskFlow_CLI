@@ -30,19 +30,23 @@ def listar_tareas ():
 
 from data import load_data, save_data
 
-def eliminar_tareas (tareas):
+def eliminar_tareas ():
     data = load_data()
-    if len(tareas) == 0:
+    if len(data["tareas"]) == 0:
         print("No hay tareas registradas aún.")
     else:
         print("Lista de tareas: ")
-        for i, tarea in enumerate(tareas, start=1):
-            print(i, "-", tarea)
-        opcion = input("Indique cuál tarea desea eliminar.")
-        if opcion == "tarea":
-            data ["tareas"].remove(tarea)
-            save_data(data)
-            print("Tarea eliminada.")
+        for tarea in data["tareas"]:
+            print(tarea["titulo"]) 
+        print("-------------------------")
+        opcion = input("Escriba el nombre de la tarea que desea eliminar: ")
+        for tarea in data["tareas"]:
+            if opcion == tarea["titulo"]:
+                data["tareas"].remove(tarea)
+        
+    save_data(data)
+    print("----------------")
+    print("Tarea eliminada.")
 
 def editar_tarea ():
     data = load_data()
