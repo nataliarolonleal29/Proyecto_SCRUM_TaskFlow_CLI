@@ -45,3 +45,11 @@ TaskFlow CLI surge como una herramienta sencilla y eficiente que evita las dific
 
 - VS Code Terminal y Github: Para la interacción fluida con el sistema operativo y la terminal.
 
+## Instrucciones de Instalación y Ejecución
+1. Clonar el repositorio:
+git clone https://github.com/nataliarolonleal29/Proyecto_SCRUM_TaskFlow_CLI.git
+
+2. Ejecutar la aplicación:
+No requiere dependencias externas. Ejecuta directamente con Python:
+python app.py
+
