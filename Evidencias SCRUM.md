@@ -28,8 +28,8 @@ El día 1 se identificaron algunos errores en el proyecto, específicamente en a
 
 ## Evidencia de refinamiento del backlog
 
-
+![Imagen](imagenes/refinamiento-del-backlog.jpeg)
 
 ## Definición de "Hecho" o criterios de aceptación de los incrementos
 
-
+![Imagen](imagenes/Hecho.jpeg)
