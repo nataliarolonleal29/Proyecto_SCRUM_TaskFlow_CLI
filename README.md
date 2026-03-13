@@ -53,3 +53,14 @@ git clone https://github.com/nataliarolonleal29/Proyecto_SCRUM_TaskFlow_CLI.git
 No requiere dependencias externas. Ejecuta directamente con Python:
 python app.py
 
+## Metodología SCRUM
+Para el desarrollo de este proyecto, se aplicó el marco de trabajo SCRUM de la siguiente manera:
+
+- Roles: Se definieron responsabilidades claras (Product Owner, Scrum Master y Developers) para asegurar la visión del producto y la agilidad del proceso.
+
+- Product Backlog: Se transformaron las necesidades del usuario en historias de usuario técnicas, priorizadas por valor de negocio.
+
+- Sprints: El desarrollo se dividió en iteraciones cortas, enfocándose en entregar un incremento funcional al finalizar cada una.
+
+- Tablero Kanban: Se utilizó una herramienta visual (To Do, In Progress, Done) con GitHub Projects, para monitorear el flujo de trabajo en tiempo real y detectar posibles problemas.
+
