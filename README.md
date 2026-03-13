@@ -66,3 +66,107 @@ Para el desarrollo de este proyecto, se aplicó el marco de trabajo SCRUM de la 
 
 ## Reflexión Final
 El desarrollo de TaskFlow CLI permitió validar que la simplicidad técnica, apoyada en una metodología ágil como SCRUM, reduce significativamente el desorden y la baja productividad. El aprendizaje principal fue la importancia de la planificación iterativa: empezar con un MVP funcional permitió identificar mejoras necesarias (como la validación de entradas) antes de añadir complejidad innecesaria. Este proyecto reafirma que el orden en el proceso de desarrollo es tan crucial como la calidad del código para alcanzar el éxito y la mejora continua.
+
+## Comados del programa
+
+### Iniciar el programa
+1. Ejecuta el archivo principal del programa en Python.
+2. Al iniciarlo aparecerá un menú con las diferentes funciones del sistema.
+
+```
+--menu tareas--
+1. Crear tarea
+2. Editar
+3. Listar tarea
+4. Marcar tarea como completada
+5. Eliminar tarea
+6. Salir
+```
+
+3. El usuario debe ingresar el número de la opción que desea utilizar.
+
+---
+
+## Funciones del Programa
+
+### Crear una tarea
+1. En el menú principal selecciona la opción **1**.
+2. El programa mostrará el mensaje de bienvenida a la sección de creación de tareas.
+3. Ingresa el **título de la tarea**.
+4. Ingresa una **descripción de la tarea**.
+5. Escribe la **fecha de la tarea** en formato `DIA/MES/AÑO`.
+6. Ingresa la **hora de inicio de la tarea**.
+7. Ingresa la **hora de finalización de la tarea**.
+8. La tarea se guardará con el estado **Programada**.
+9. El sistema mostrará el mensaje **"Tarea programada correctamente"**.
+
+---
+
+### Editar una tarea
+1. En el menú principal selecciona la opción **2**.
+2. El sistema mostrará los títulos de todas las tareas registradas.
+3. Escribe el nombre de la tarea que deseas editar.
+4. Luego aparecerá un menú con las opciones de edición:
+
+```
+1. Titulo
+2. Descripcion
+3. Fecha
+4. Hora de inicio
+5. Hora de fin
+```
+
+5. Selecciona el número correspondiente al campo que deseas modificar.
+6. Ingresa el nuevo valor del campo seleccionado.
+7. El programa guardará los cambios.
+8. Se mostrará el mensaje **"Datos actualizados correctamente"**.
+
+---
+
+### Listar tareas
+1. En el menú principal selecciona la opción **3**.
+2. El sistema verificará si existen tareas registradas.
+3. Si no hay tareas, mostrará el mensaje:
+
+```
+No hay tareas registradas.
+```
+
+4. Si existen tareas, el sistema mostrará todas las tareas guardadas con su información.
+
+---
+
+### Marcar una tarea como completada
+1. En el menú principal selecciona la opción **4**.
+2. El sistema mostrará las tareas que tienen estado **Programada**.
+3. Escribe el nombre de la tarea que deseas actualizar.
+4. El sistema cambiará el estado de la tarea a **Completada**.
+5. Se mostrará el mensaje **"Estado de la tarea actualizada satisfactoriamente"**.
+
+---
+
+### Eliminar una tarea
+1. En el menú principal selecciona la opción **5**.
+2. El sistema mostrará la lista de tareas registradas.
+3. Escribe el nombre de la tarea que deseas eliminar.
+4. El sistema eliminará la tarea del sistema.
+5. Se mostrará el mensaje **"Tarea eliminada"**.
+
+---
+
+### Salir del programa
+1. En el menú principal selecciona la opción **6**.
+2. Antes de salir, el sistema preguntará si deseas dejar una opinión.
+
+```
+1. Sí
+2. No
+```
+
+3. Si seleccionas **1**, el sistema solicitará:
+   - Nombre de usuario
+   - Error o sugerencia
+   - Por qué es importante arreglar o añadir esa mejora
+
+4. Esta información se guardará como **historia de usuario**.
+5. Finalmente el sistema mostrará el mensaje **"Saliendo del programa..."** y el programa terminará.
