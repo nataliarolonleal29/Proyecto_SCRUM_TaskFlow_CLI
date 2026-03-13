@@ -1,5 +1,12 @@
 {
     "tareas": [
+        {
+            "titulo": "Cepillarme los dientes",
+            "descripcion": "Cuando llegue la hora de irme a dormir debo cepillarme los dientes",
+            "fecha": "13/03/2026",
+            "hora_de_inicio": "9 pm",
+            "hora_de_fin": "9 : 10 pm",
+            "estado_de_la_tarea": "Programada"
+        }
     ]
-
 }
