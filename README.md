@@ -38,3 +38,10 @@ TaskFlow CLI surge como una herramienta sencilla y eficiente que evita las dific
 
 - Persistencia Automática: Guardado y carga de datos en tiempo real mediante formato JSON.
 
+## Tecnologías Implementadas
+- Python: Lenguaje principal para la lógica del proyecto.
+
+- JSON: Formato estándar para el almacenamiento de datos local.
+
+- VS Code Terminal y Github: Para la interacción fluida con el sistema operativo y la terminal.
+
