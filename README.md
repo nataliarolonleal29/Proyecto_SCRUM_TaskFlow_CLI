@@ -64,3 +64,5 @@ Para el desarrollo de este proyecto, se aplicó el marco de trabajo SCRUM de la 
 
 - Tablero Kanban: Se utilizó una herramienta visual (To Do, In Progress, Done) con GitHub Projects, para monitorear el flujo de trabajo en tiempo real y detectar posibles problemas.
 
+## Reflexión Final
+El desarrollo de TaskFlow CLI permitió validar que la simplicidad técnica, apoyada en una metodología ágil como SCRUM, reduce significativamente el desorden y la baja productividad. El aprendizaje principal fue la importancia de la planificación iterativa: empezar con un MVP funcional permitió identificar mejoras necesarias (como la validación de entradas) antes de añadir complejidad innecesaria. Este proyecto reafirma que el orden en el proceso de desarrollo es tan crucial como la calidad del código para alcanzar el éxito y la mejora continua.
