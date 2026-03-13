@@ -80,3 +80,19 @@ def editar_tarea ():
     save_data(data)
     print("")
     print("Datos actualizados correctamente")
+
+def actualizar_estado ():
+    data = load_data()
+    for tarea in data["tareas"]:
+        if tarea["estado_de_la_tarea"] == "Programada":
+            print(tarea["titulo"])
+    print("--------------------------------------------------")
+    print("Escribe el nombre de la tarea que desea actualizar")
+    seleccion = input(": ")
+    for tarea in data["tareas"]:
+        if tarea["titulo"] == seleccion:
+            tarea["estado_de_la_tarea"] == "Completada"
+
+    save_data(data)
+    print("")
+    print("Estado de la tarea actualizada satisfactoriamente")
