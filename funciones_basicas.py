@@ -16,15 +16,16 @@ def crear_tarea ():
     print("")
     print("Tarea programada correctamente")
     
-tareas = []
 
-def listar_tareas (tareas):
-    if len(tareas) == 0:
+def listar_tareas ():
+    data = load_data()
+    if len(data["tareas"]) == 0:
         print("No hay tareas registradas.")
     else:
         print("Lista de tareas: ")
-        for i, tarea in enumerate(tareas, start=1):
-            print(i, "-", tarea)
+        for tarea in data["tareas"]:
+            print("---------------")
+            print(tarea) 
 
 
 from data import load_data, save_data
@@ -91,7 +92,7 @@ def actualizar_estado ():
     seleccion = input(": ")
     for tarea in data["tareas"]:
         if tarea["titulo"] == seleccion:
-            tarea["estado_de_la_tarea"] == "Completada"
+            tarea["estado_de_la_tarea"] = "Completada"
 
     save_data(data)
     print("")
