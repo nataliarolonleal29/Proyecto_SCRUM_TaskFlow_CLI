@@ -27,9 +27,9 @@ El día 1 se identificaron algunos errores en el proyecto, específicamente en a
 ![Imagen](imagenes/Sprint-Retrospective.png)
 
 ## Evidencia de refinamiento del backlog
-
+El día 2 se agregaron detalles en el archivo README sobre instrucciones de instalación y ejecución, y a su vez se definieron conceptos sobre la metodología SCRUM y la reflexión final
 ![Imagen](imagenes/refinamiento-del-backlog.jpeg)
 
 ## Definición de "Hecho" o criterios de aceptación de los incrementos
-
+El día 2 se revisaron los requisitos que se cumplieron para considerar que el incremento quedo completo, a su vez se revisaron las condiciones especificas que dió el cliente para que pueda aceptar el resultado final
 ![Imagen](imagenes/Hecho.jpeg)
