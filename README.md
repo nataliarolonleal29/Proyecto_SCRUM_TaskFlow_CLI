@@ -26,3 +26,15 @@ Desarrollar una aplicación de consola en Python llamada TaskFlow CLI que permit
 
 ## Solución Propuesta
 TaskFlow CLI surge como una herramienta sencilla y eficiente que evita las dificultades de las interfaces gráficas pesadas. La solución consiste en una interfaz de línea de comandos (CLI) que permite al usuario interactuar con su lista de tareas mediante verbos directos. Al utilizar un archivo JSON para la persistencia, garantizamos que los datos sobrevivan a cada sesión sin necesidad de configurar bases de datos complejas, ofreciendo una experiencia de "instalar y usar" inmediata.
+
+## Funcionalidades Implementadas
+- Creación de Tareas: Registro rápido de nuevas actividades con una descripción clara.
+
+- Visualización Dinámica: Listado organizado de todas las tareas pendientes y completadas.
+
+- Edición de tareas: Se realizó una función para editar cualquier tipo de dato y/o información de cada tarea.
+
+- Eliminación Selectiva: Limpieza del historial eliminando tareas obsoletas o erróneas.
+
+- Persistencia Automática: Guardado y carga de datos en tiempo real mediante formato JSON.
+
