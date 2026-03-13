@@ -102,3 +102,16 @@ def actualizar_estado ():
     save_data(data)
     print("")
     print("Estado de la tarea actualizada satisfactoriamente")
+
+def nueva_historia_de_usuario ():
+    data = load_data()
+    historia_de_usuario = {
+        "nombre" : input("Nombre de usuario: "),
+        "peticion" : input("Error o sugerencia: "),
+        "valor" : input("Por qué es importante arreglar o añadir esto: ")
+    }
+
+    data ["historias_de_usuarios"].append(historia_de_usuario)
+    save_data(data)
+    print("")
+    print("Muchas gracias por compartir sus opiniones")

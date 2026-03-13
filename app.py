@@ -1,4 +1,4 @@
-from funciones_basicas import crear_tarea, editar_tarea, listar_tareas, eliminar_tareas, actualizar_estado
+from funciones_basicas import crear_tarea, editar_tarea, listar_tareas, eliminar_tareas, actualizar_estado, nueva_historia_de_usuario
 bool = True
 
 while bool == True:
@@ -38,5 +38,11 @@ while bool == True:
         eliminar_tareas()
     
     elif opcion == "6":
+        print("Antes de salir del programa, ¿Le gustaria dejarnos su opinion?")
+        print("1. Si")
+        print("2. No")
+        seleccion = input("Digite el numero de su elección: ")
+        if seleccion == "1":
+            nueva_historia_de_usuario()
         print("Saliendo del programa...")
         bool = False

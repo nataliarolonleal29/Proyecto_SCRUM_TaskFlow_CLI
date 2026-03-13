@@ -1,3 +1,10 @@
 {
-    "tareas": []
+    "tareas": [],
+    "historias_de_usuarios": [
+        {
+            "nombre": "Juan",
+            "peticion": "Me gustaria que haya una nueva opcion que me avise cuando la tarea esta a una hora de desarrollarse",
+            "valor": "Porque necesito estar mas alerta con mis tareas"
+        }
+    ]
 }
